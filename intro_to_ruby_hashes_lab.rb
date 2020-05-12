@@ -12,7 +12,6 @@ def monopoly_with_second_tier
     :names => third_hash
   }
   monopoly_hash = {:railroads => empty_hash}
-  monopoly_hash[railroads] =
 end
 
 def monopoly_with_third_tier
