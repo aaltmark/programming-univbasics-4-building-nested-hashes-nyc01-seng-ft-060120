@@ -4,14 +4,10 @@ def base_hash
 end
 
 def monopoly_with_second_tier
-  second_hash = {}
-  third_hash = {}
-  empty_hash = {
+  monopoly_hash = {:railroads => {
     :pieces => 4
-    :rent_in_dollars => second_hash
-    :names => third_hash
-  }
-  monopoly_hash = {:railroads => empty_hash}
+    :rent_in_dollars => {}
+    :names => {}
 end
 
 def monopoly_with_third_tier
