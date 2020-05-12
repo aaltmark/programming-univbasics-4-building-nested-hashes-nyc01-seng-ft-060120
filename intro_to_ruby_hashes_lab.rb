@@ -1,5 +1,5 @@
 def base_hash
-  empty_hash = []
+  empty_hash = {}
   monopoly_hash = {"railroads" => empty_hash}
 end
 
